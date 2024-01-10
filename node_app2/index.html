@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Server1</title>
+    <!-- <script src="./main.js"></script> -->
+</head>
+
+<body>
+    <h1>Server2</h1>
+    <div>
+        <input type="text" id="messageInput1" placeholder="Type a message...">
+        <button onclick="sendMessage('messageInput1')">Send to Server2</button>
+    </div>
+    <div id="messages1"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>

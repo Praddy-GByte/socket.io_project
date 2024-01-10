@@ -1,0 +1,17 @@
+{
+  "name": "server1",
+  "version": "1.0.0",
+  "description": "Server 1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "open-browser": "open http://localhost:3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
